@@ -26,7 +26,7 @@ function createCard(personagem) {
     `);
 }
 
-function randomCards(data, element) {
+function renderCard(data, element) {
     const markup = createCard(data);
     element.innerHTML += markup;
 };
